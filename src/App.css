@@ -6,7 +6,7 @@
 /* Main div for slideshow */
 .Landing-Div{
   background-image: url("./Ressources/Images/Background/bg3.jpeg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100vw;
@@ -74,6 +74,8 @@
   height: 7vh;
 }
 .LogoImg{
+  width: 7vw;
+  height: 7vh;
   transition: all 0.3s ease;
 }
 
