@@ -1,0 +1,215 @@
+.App {
+  text-align: center;
+} 
+
+
+/* Main div for slideshow */
+.Landing-Div{
+  background-image: url("./Ressources/Images/Background/bg3.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  animation: BgSlideShow 60s linear infinite;
+  cursor: url("./Ressources/Images/Cursor/cercle.png"), auto;
+}
+
+@keyframes BgSlideShow {
+  0%{
+    background-image: url("./Ressources/Images/Background/bg3.jpeg");
+  }
+  25%{
+    background-image: url("./Ressources/Images/Background/bg3.jpeg");
+
+  }
+  33%{
+    background-image: url("./Ressources/Images/Background/bg2.jpeg");
+  }
+  50%{
+    background-image: url("./Ressources/Images/Background/bg2.jpeg");
+  }
+  66%{
+    background-image: url("./Ressources/Images/Background/bg1.jpeg");
+  }
+  90%{
+    background-image: url("./Ressources/Images/Background/bg1.jpeg");
+  }
+  
+}
+
+
+/* Seperation layer to add blur and background color */
+.Background-seperation{
+  background-color: rgba(33, 35, 37, 0.63);
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s ease;
+}
+
+
+/* The style below has eveything to do with the header */
+.App-header {
+  width: 90vw;
+  height: 10vh;
+  translate: 5vw 5vh ;
+  margin: auto;
+  transition: all 0.3s linear;
+  z-index: 1;
+  position: absolute;
+  
+}
+
+
+.App-header div{
+  float: left;
+}
+
+.Logo{
+  width: 10vw;
+  height: 10vh;
+}
+.Logo img{
+  width: 7vw;
+  height: 7vh;
+}
+.LogoImg{
+  transition: all 0.3s ease;
+}
+
+.Links{
+  width: 40vw;
+  height: 7vh;
+  translate: 40vw 3vh;
+}
+
+.Links a{
+  padding: 3vh;
+  text-decoration: none;
+  margin-top:10vh ;
+  color: aliceblue;
+  transition: all 0.3s ease ;
+}
+
+.Links a:hover{
+  color: rgb(206, 206, 206);
+  transition: all 0.3s ease ;
+}
+
+
+
+/* the styles below has everything to do with the text and links present one the .landing-div */
+.content{
+  width: 70vw;
+  margin: auto;
+  text-align: left;
+  color: white;
+  translate: 0 30vh;
+}
+.content-p1{
+  display: none;
+  animation-duration: 2s;
+  font-size: 1.2vw;
+  width: 40vw;
+}
+.content-p2{
+  display: none;
+  animation-duration: 2s;
+  font-size: 3vw;
+  width: 40vw;
+  translate: 0 -3vh;
+}
+
+.content-a1{
+  display: none;
+  animation-duration: 3s;
+  font-size: 1vw;
+  width: 40vw;
+  color:white;
+  text-decoration: none;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border: 1px solid white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+.content-a2{
+  display: none;
+  animation-duration: 3s;
+  font-size: 1vw;
+  width: 40vw;
+  color:white;
+  text-decoration: none;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  border: 1px solid white;
+  margin-left: 2vw;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.content-a1:hover{
+  background-color: white;
+  color:black;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-a2:hover{
+  background-color: white;
+  color:black;
+  transition: all 0.3s ease-in-out;
+}
+.Event-Content{
+  translate: 75vw 30vh;
+  width: 20vw;
+  height: 20vh;
+  color: white;
+  border:1px solid transparent;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  display: none;
+  animation-duration: 0.7s;
+}
+.Event-Content:hover{
+  border:1px solid white;
+  transition: all 0.3s ease;
+}
+.Event-Content-p{
+  display: block;
+  width: 20vw;
+  height: 5vh;
+  translate: 0 -2vh;
+  padding-top: 2vh;
+  padding-left: 2vw;
+  text-align: left;
+  font-size: 2.5vh;
+}
+.Event-Content-title{
+  float: left;
+  width: 15vw;
+  max-height: 15vh;
+  translate: 0 -6vh;
+  padding-left: 2vw;
+  text-align: left;
+}
+
+.Event-Content-link{
+  display: inline-block;
+  width: 3vw;
+  max-height: 15vh;
+  translate: 0 -6vh;
+  text-align: left;
+}
+
+
+
+/* the styles below just to show the parallax effect and for further developement */
+.white{
+  width: 100vw;
+  height: 100vh;
+  box-shadow: 0px 15px 100px rgb(78, 78, 78);
+}
