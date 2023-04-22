@@ -50,9 +50,9 @@
 
 /* The style below has eveything to do with the header */
 .App-header {
-  width: 90vw;
+  width: 100vw;
   height: 10vh;
-  translate: 5vw 5vh ;
+  translate: 0vw 5vh ;
   margin: auto;
   transition: all 0.3s linear;
   z-index: 1;
@@ -68,6 +68,7 @@
 .Logo{
   width: 10vw;
   height: 10vh;
+  translate: 5vw 0vh ;
 }
 .Logo img{
   width: 7vw;
@@ -91,6 +92,7 @@
   margin-top:10vh ;
   color: aliceblue;
   transition: all 0.3s ease ;
+  font-size: 1.1vw;
 }
 
 .Links a:hover{
@@ -168,10 +170,11 @@
 .Event-Content{
   translate: 75vw 30vh;
   width: 20vw;
-  height: 20vh;
+  max-height: 20vh;
   color: white;
   border:1px solid transparent;
   transition: all 0.3s ease;
+  font-size: 1vw;
   cursor: pointer;
   display: none;
   animation-duration: 0.7s;
@@ -212,6 +215,78 @@
 /* the styles below just to show the parallax effect and for further developement */
 .white{
   width: 100vw;
-  height: 100vh;
+  height: 200vh;
   box-shadow: 0px 15px 100px rgb(78, 78, 78);
+}
+.about{
+  width: 90vw;
+  height:40vh;
+  margin: auto;
+  translate: 0 5vh;
+  padding: 5vh;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+}
+.about-text{
+  width: 40vw;
+  margin: auto;
+  text-align: left;
+  display: none;
+  animation-duration: 1s;
+}
+.about-text h2{
+  font-size: 2.2vw;
+  color: black;
+}
+.about-logo{
+  width: 40vw;
+  height: 30vw;
+  display: none;
+  animation-duration: 1s;
+}
+.about-logo img{
+  width: 20vw;
+  height: 10vw;
+  translate: 0 8vh;
+
+}
+.about div{
+  float: left;
+}
+
+
+
+.Second-Div{
+  width: 90vw;
+  height:60vh;
+  margin: auto;
+}
+
+
+.Annoucements{
+  width: 40vw;
+  height :70vh;
+  float: left;
+  background-color: blueviolet;
+  translate: 10vw -130vh;
+  text-align: left;
+  margin: auto;
+}
+
+.Events{
+  width: 40vw;
+  height :70vh;
+  float: left;
+  margin: auto;
+  translate: 10vw -130vh;
+  text-align: left;
+}
+
+.Events >p{
+  
+  padding-left:3vh;
+}
+.Events >h1{
+  
+  padding-left:3vh;
 }
