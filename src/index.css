@@ -4,13 +4,17 @@
        url('Fonts/Hellix-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
   font-family: 'Hellix-Bold';
   src: url('Fonts/Hellix-Bold.woff2') format('woff2'),
        url('Fonts/Hellix-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
 
+@font-face {
   font-family: 'Hellix-Black';
   src: url('Fonts/Hellix-Black.woff2') format('woff2'),
        url('Fonts/Hellix-Black.woff') format('woff');
@@ -20,6 +24,12 @@
 
 body {
   font-family: 'Hellix-Regular', sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
