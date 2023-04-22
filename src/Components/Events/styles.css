@@ -6,7 +6,7 @@
     width: 30vw;
     margin: auto;
     border-radius: 15px;
-    background-image: url("Images/Agadir.jpeg");
+    /* background-image: url("Images/Agadir.jpeg"); */
     background-size: cover;
     color: white;
     transition: all 0.3s ease-in-out;

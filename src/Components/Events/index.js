@@ -1,5 +1,4 @@
 import React, { useState , useEffect} from "react";
-import BG from './Images/Agadir.jpeg'
 // import css
 import "./styles.css"
 
@@ -8,7 +7,7 @@ function Events(props){
 
 
     const myStyle={
-        // backgroundImage: "url('"+ props.background + "')",
+        backgroundImage: "url('"+ props.background + "')",
         
     };
 
@@ -16,7 +15,7 @@ function Events(props){
     return (
         <div className="Event-Container" 
         style={{ 
-            // backgroundImage: `url(${props.background})`
+            backgroundImage: `url(${props.background})`
             
           }}
         // style={myStyle}
