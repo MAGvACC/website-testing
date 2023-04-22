@@ -1,10 +1,17 @@
 import React from "react";
 
-function Annoucements(){
+// Import StyleSheet 
+
+import "./styles.css";
+
+
+function Annoucements(props){
     return (
-        <>
-        <p>hello</p>
-        </>
+        <div className="Annoucement-Container">
+            <div className="Annoucement-Container-Seperation">
+                <p>{props.text}</p>
+            </div>
+        </div>
     )
 }
 

@@ -44,16 +44,35 @@ function App() {
     // document.getElementsByClassName("about")[0].style.boxShadow = "0 0 0 grey"
   }
 
-  // 
+  // The function below controls the .about animation effect
   function AboutAnimations(){
-    document.getElementsByClassName("about-logo")[0].style.display = "inline"
-    document.getElementsByClassName("about-logo")[0].classList.add("animate__fadeInLeft")
-    
-    document.getElementsByClassName("about-text")[0].style.display = "inline"
-    document.getElementsByClassName("about-text")[0].classList.add("animate__fadeInRight")
-  
-    // document.getElementsByClassName("about")[0].style.boxShadow = "15px 15px 100px grey"
+    document.querySelector(".about-logo").style.display = "inline"
+    document.querySelector(".about-logo").classList.add("animate__fadeInLeft")
+
+    document.querySelector(".about-text").style.display = "inline"
+    document.querySelector(".about-text").classList.add("animate__fadeInRight")
   }
+
+  
+  // The function below controls the .top-controllers animation effect
+  function TopControllersAnimation(){
+    document.getElementsByClassName("Top-Controllers")[0].style.display="block"
+    setTimeout(()=>{
+      document.getElementsByClassName("Top-Controllers-Seperation")[0].style.backdropFilter  = "contrast(100%) saturate(100%) blur(5px) brightness(100%)"
+      document.getElementsByClassName("New-Controllers")[0].style.display="block"
+      document.getElementsByClassName("Top-Controllers-Content")[0].style.display="block"
+      document.getElementsByClassName("Top-Positions")[0].style.display="block"
+    },2000)
+  }
+
+    // The function below controls the .Annoucements .Events animation effect
+    function EventAnnoucementsAnimations(){
+      document.getElementsByClassName("Annoucements")[0].style.display = "inline"
+      document.getElementsByClassName("Annoucements")[0].classList.add("animate__fadeInLeft")
+      
+      document.getElementsByClassName("Events")[0].style.display = "inline"
+      document.getElementsByClassName("Events")[0].classList.add("animate__fadeInRight")
+    }
 
   // the code below adds a scroll event to the window of the website and check whether the user
   // is scrolling up or down (under or above  50px ) and executes functions depending on vertical scrolling
@@ -63,6 +82,12 @@ function App() {
     } 
     if (window.scrollY > 300) {
       AboutAnimations()
+    } 
+    if (window.scrollY > 600) {
+      TopControllersAnimation()
+    } 
+    if (window.scrollY > 1100) {
+      EventAnnoucementsAnimations()
     } 
     else {
       HeaderAnimationScrollUp()
@@ -166,14 +191,28 @@ function App() {
       </div>
 
 
-        <div className='Annoucements'>
+      <div className='Top-Controllers animate__fadeIn'>
+        <div className='Top-Controllers-Seperation'>
+          <div className='New-Controllers animate__fadeInLeft'></div>
+          <div className='Top-Controllers-Content animate__fadeIn'></div>
+          <div className='Top-Positions animate__fadeInRight'></div>
+        </div>
+      </div>
+
+
+        <div className='Annoucements animate__fadeInLeft'>
           <h1>Annoucements</h1>
           <p>Whats new?</p>
           {/* component */}
-          <Annoucements/>
+          <Annoucements
+            text = "I am thrilled to announce that @Ali B. - ACCMA3 has been appointed as the new ATC Training Director (ACCMA3)."
+          />
+          <Annoucements
+            text = "Morocco vACC is excited to announce the collaboration with ABY virtual (https://abyvirtual.com/), a raising virtual airline based in the United Arab Emirates with subsidiaires in the UAE, Egypt, Sudan, Morocco, Armenia and Pakistan."
+          />
         </div>
 
-        <div className='Events'>
+        <div className='Events animate__fadeInRight'>
           <h1>Events</h1>
           <p>Meet new people over radio</p>
           {/* component */}

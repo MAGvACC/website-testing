@@ -5,7 +5,6 @@
 
 /* Main div for slideshow */
 .Landing-Div{
-  background-image: url("./Ressources/Images/Background/bg3.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -216,7 +215,6 @@
 .white{
   width: 100vw;
   height: 200vh;
-  box-shadow: 0px 15px 100px rgb(78, 78, 78);
 }
 .about{
   width: 90vw;
@@ -255,22 +253,56 @@
 }
 
 
-
-.Second-Div{
-  width: 90vw;
-  height:60vh;
-  margin: auto;
+.Top-Controllers{
+  width: 100vw;
+  height: 60vh;
+  background-color: #00cf1c8a;
+  translate: 0 -140vh;
+  background-image: url("./Ressources/Images/Background/top-controller.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: none;
+  animation-duration: 2s;
+  
+  /* animation: BgSlideShow 60s linear infinite; */
+}
+.Top-Controllers-Seperation{
+  transition: all 0.3s ease-in-out;
+  width: 100vw;
+  height: 60vh;
 }
 
+.Top-Controllers-Seperation >div{
+  width: 25vw;
+  height: 50vh;
+  background-color: white;
+  border-radius: 15px;
+  float: left;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  box-shadow: 0px 0px 20px grey;
+  transition: all 0.3s ease-in-out;
+  display: none;
+  animation-duration: 2s;
+}
+
+.Top-Controllers-Seperation >div:hover{
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 0px 20px rgb(44, 44, 44);
+}
 
 .Annoucements{
   width: 40vw;
   height :70vh;
   float: left;
-  background-color: blueviolet;
   translate: 10vw -130vh;
   text-align: left;
   margin: auto;
+  display: none;
+  animation-duration: 1s;
+}
+.Annoucements>p{
+  color : #5f5f5f!important
 }
 
 .Events{
@@ -280,10 +312,12 @@
   margin: auto;
   translate: 10vw -130vh;
   text-align: left;
+  display: none;
+  animation-duration: 1s;
 }
 
 .Events >p{
-  
+  color : #5f5f5f!important;
   padding-left:3vh;
 }
 .Events >h1{
