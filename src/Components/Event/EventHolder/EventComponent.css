@@ -1,0 +1,52 @@
+.EventComponent{
+    width: 40vw;
+    height: 55vh;
+    float: left;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 7vw;
+    background-size: 130%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    animation-duration: 1s;
+}
+.EventComponent:hover{
+    background-color: rgb(212, 212, 212);
+    transition: all 0.3s ease;
+}
+.EventComponent img{
+    width: 35vw;
+    
+}
+.EventComponent h1{
+    color: rgb(37, 37, 37);
+    font-size: 3.5vh;
+    padding: 2vh;
+}
+.EventComponent > div {
+    width: 49vw;
+    height: 5vh;
+    text-align: center;
+}
+.EventComponent > div > div > *{
+    float: left;
+}
+.EventComponent > div > div{
+    width: 20vw;
+    margin: auto;
+    float: left;
+    font-size: 2vh;
+    margin-top: 3vh;
+    translate: 1.5vw;
+    font-size: 2.5vh;
+    
+}
+.EventComponent > div > div > *{
+    margin-left: 2vh;
+    
+}
+
+.EventComponent > div > div > p{
+    translate: 0 -0.5vh;
+    
+}

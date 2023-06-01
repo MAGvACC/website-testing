@@ -1,0 +1,45 @@
+.Footer{
+    width: 100vw;
+    height: 60vh;
+}
+
+.Footer > div{
+    width: 100vw!important;
+}
+
+.Footer > div  div {
+    width: 33vw;
+    height: 40vh;
+    float: left;
+
+}
+.Footer-Link a{
+    display: block;
+    color: rgb(114, 114, 114);
+    margin-top: 2vh;
+}
+.Footer-Image img{
+    width: 10vw;
+    margin-top: 10vh;
+}
+
+.Footer-Partener div img{
+    width: 10vw;
+    text-align: center;
+}
+.Footer-Partener div {
+    width: 33vw!important;
+    height: 15vh!important;
+    text-align: center;
+}
+
+.Footer-text-container{
+    width: 100vw!important;
+    height: 10vh;
+}
+.Footer-text{
+    width: 100vw!important;
+    height: 10vh;
+    padding-top: 10vh;
+
+}

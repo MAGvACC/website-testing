@@ -1,0 +1,39 @@
+.Event{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../../Ressources/Images/Event/PortAg.jpg");
+    background-size: cover;
+}
+.Event > div{
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: contrast(100%) saturate(100%) blur(100px) brightness(100%);
+}
+.Event > div > div{
+    width: 80vw;
+    height: 80vh;
+    translate: 0 5vh;
+    background-image: url("../../../Ressources/Images/Event/PortAg.jpg");
+    background-size: cover;
+    margin: auto;
+}
+.Event > div > div > div > a{
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    border-radius: 10px;
+    border: 1px white solid;
+    transition: all 0.3s ease;
+    margin: 5vh;
+}
+
+.Event > div > div > div > a:hover{
+    color: rgb(32, 16, 16);
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+.Event > div > div > div{
+
+    translate: 0 85vh;
+}

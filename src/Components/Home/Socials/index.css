@@ -1,0 +1,135 @@
+.Socials{
+    width: 100vw;
+    height: 50vh;
+}
+.Socials-Text{
+    width: 60vw;
+    height: 50vh;
+}
+.Socials-Text p{
+    margin-top: 20vh;
+    font-size:3vh;
+    color: #5e5e5e
+}
+.Socials > div {
+    float: left;
+}
+
+.Socials-Links a:hover{
+    color: rgb(233, 233, 233);
+}
+
+
+/* Facebook link Styles */
+.SocialsListComponent-facebook{
+    cursor: pointer;
+    margin-top: 5vh;
+}
+
+.SocialsListComponent-facebook > div{
+    float: left;
+    padding-top: 1.5vh;
+}
+
+.icon-facebook{
+    width: 5vh;
+    height: 6vh;
+    background-color: #3b5998;
+    color: white;
+}
+.text-facebook{
+    width: 15vw;
+    height: 6vh;
+    background-color: #3b5998;
+}
+.text-facebook a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Instagram link Styles */
+.SocialsListComponent-Instagram{
+    cursor: pointer;
+    margin-top: 15vh;
+}
+
+.SocialsListComponent-Instagram > div{
+    float: left;
+    padding-top: 1.5vh;
+}
+
+.icon-Instagram{
+    width: 5vh;
+    height: 6vh;
+    background-color: #E4405F;
+    color: white;
+}
+.text-Instagram{
+    width: 15vw;
+    height: 6vh;
+    background-color: #E4405F;
+}
+.text-Instagram a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Twitter link Styles */
+.SocialsListComponent-Twitter{
+    cursor: pointer;
+    margin-top: 25vh;
+}
+
+.SocialsListComponent-Twitter > div{
+    float: left;
+    padding-top: 1.5vh;
+}
+
+.icon-Twitter{
+    width: 5vh;
+    height: 6vh;
+    background-color: #00acee;
+    color: white;
+}
+.text-Twitter{
+    width: 15vw;
+    height: 6vh;
+    background-color: #00acee;
+}
+.text-Twitter a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Youtube link Styles */
+.SocialsListComponent-Youtube{
+    margin-top: 35vh;
+    cursor: pointer;
+}
+
+.SocialsListComponent-Youtube > div{
+    float: left;
+    padding-top: 1.5vh;
+}
+
+.icon-Youtube{
+    width: 5vh;
+    height: 6vh;
+    background-color: #c4302b;
+    color: white;
+
+
+}
+.text-Youtube{
+    width: 15vw;
+    height: 6vh;
+    background-color: #c4302b;
+}
+.text-Youtube a{
+    color: white;
+    text-decoration: none;
+}

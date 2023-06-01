@@ -33,9 +33,13 @@ body {
 }
 
 h1 {
-  font-family: 'Hellix-Black', sans-serif;
+  font-family: 'Hellix', sans-serif;
 }
 
 h2 {
   font-family: 'Hellix-Bold', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }

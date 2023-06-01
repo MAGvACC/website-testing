@@ -1,0 +1,173 @@
+
+
+/* Main div for slideshow */
+.Landing-Div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    animation: BgSlideShow 60s linear infinite;
+    cursor: url("../../../Ressources/Images/Cursor/cercle.png"), auto;
+  }
+  
+  @keyframes BgSlideShow {
+    0%{
+      background-image: url("../../../Ressources/Images/Background/bg3.jpeg");
+    }
+    25%{
+      background-image: url("../../../Ressources/Images/Background/bg3.jpeg");
+  
+    }
+    33%{
+      background-image: url("../../../Ressources/Images/Background/bg2.jpeg");
+    }
+    50%{
+      background-image: url("../../../Ressources/Images/Background/bg2.jpeg");
+    }
+    66%{
+      background-image: url("../../../Ressources/Images/Background/bg1.jpeg");
+    }
+    90%{
+      background-image: url("../../../Ressources/Images/Background/bg1.jpeg");
+    }
+    
+  }
+  
+  
+  /* Seperation layer to add blur and background color */
+  .Background-seperation{
+    background-color: rgba(33, 35, 37, 0.63);
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s ease;
+  }
+  
+  
+
+/* the styles below has everything to do with the text and links present one the .landing-div */
+.content{
+    width: 70vw;
+    margin: auto;
+    text-align: left;
+    color: white;
+    translate: 0 30vh;
+    
+  }
+  .content-div1{
+    translate: 0 2vh!important;
+  
+  }
+  .content > div{
+    translate: 0 5vh;
+  }
+  .content-p1{
+    display: none;
+    animation-duration: 2s;
+    font-size: 1.2vw;
+    width: 40vw;
+    text-align: left;
+  }
+  .content-p2{
+    display: none;
+    animation-duration: 2s;
+    font-size: 3vw;
+    width: 40vw;
+    translate: 1 -3vh;
+    text-align: left;
+  }
+  
+  .content-a1{
+    display: none;
+    animation-duration: 3s;
+    font-size: 1vw;
+    width: 40vw;
+    color:white;
+    text-decoration: none;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .content-a2{
+    display: none;
+    animation-duration: 3s;
+    font-size: 1vw;
+    width: 40vw;
+    color:white;
+    text-decoration: none;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    border: 1px solid white;
+    margin-left: 2vw;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    text-align: left;
+  }
+  .content-a{
+    text-align: left;
+  
+  }
+  
+  .content-a1:hover{
+    background-color: white;
+    color:black;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .content-a2:hover{
+    background-color: white;
+    color:black;
+    transition: all 0.3s ease-in-out;
+  }
+  .Event-Content{
+    translate: 75vw 5vh;
+    width: 20vw;
+    height: 15vh;
+    color: white;
+    border:1px solid transparent;
+    transition: all 0.3s ease;
+    font-size: 1vw;
+    cursor: pointer;
+    display: none;
+    animation-duration: 0.7s;
+    padding-top: 1vh;
+  }
+  .Event-Content:hover{
+    border:1px solid white;
+    transition: all 0.3s ease;
+  }
+  .Event-Content-p{
+    display: block;
+    width: 20vw;
+    height: 5vh;
+    translate: 0 -2vh;
+    padding-top: 2vh;
+    padding-left: 2vw;
+    text-align: left;
+    font-size: 2.5vh;
+  }
+  .Event-Content-title{
+    float: left;
+    width: 15vw;
+    max-height: 15vh;
+    translate: -1 -6vh;
+    padding-left: 2vw;
+    text-align: left;
+  }
+  
+  .Event-Content-link{
+    display: inline-block;
+    width: 3vw;
+    max-height: 15vh;
+    translate: -1 -6vh;
+    text-align: left;
+  }
+  
+  

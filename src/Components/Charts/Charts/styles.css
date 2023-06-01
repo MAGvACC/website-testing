@@ -1,0 +1,40 @@
+.rooster{
+    width: 100vw;
+    height: 50vh;
+}
+
+.rooster div{
+    width: 25vw;
+    height: 30vh;
+    float: left;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 7vw;
+    background-color: aqua;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-position: 50%, -50%;
+}
+.rooster div:hover{
+    transition: all 0.3s ease;
+    background-size: 120%;
+    }
+.rooster div a{
+    width: 25vw;
+    height: 30vh;
+}
+.Morocco{
+    background-image: url('../../../Ressources/Images/Chart\ Images/morocco.jpg');
+}
+.Algeria{
+    background-image: url('../../../Ressources/Images/Chart\ Images/algeria.jpg');
+}
+.Tunisia{
+    background-image: url('../../../Ressources/Images/Chart\ Images/tunisia.jpg');
+}
+
+
+.Morocco p{color: white;margin-top: 13vh;}
+.Algeria p{color: white;margin-top: 13vh;}
+.Tunisia p{color: white;margin-top: 13vh;}
