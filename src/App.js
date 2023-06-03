@@ -11,6 +11,7 @@ import EventMain from './Components/Event/Event'
 import ControllersMain from './Components/Controllers/Controllers'
 import ChartsMain from './Components/Charts/Charts'
 import ConnectVatsim from './Components/Vatsim/ConnectVatsim'
+import JoinMain from './Components/Join/Join'
 
 // import Annoucements from './Components/Annoucements';
 // import Events from './Components/Events';
@@ -59,6 +60,7 @@ function App() {
       <Route path="/Controllers" element={<ControllersMain />} />  
       <Route path="/Charts" element={<ChartsMain />} />  
       <Route path="/Connect" element={<ConnectVatsim />} />  
+      <Route path="/Join" element={<JoinMain />} />
     </Routes>
 
     <div className="App">

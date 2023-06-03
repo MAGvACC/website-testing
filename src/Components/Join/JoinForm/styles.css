@@ -1,0 +1,161 @@
+.JoinForm{
+    width: 100vw;
+    height: 40vh;
+}
+/* .JoinForm-Question1{
+    margin-top: 15vh;
+    width: 100vw;
+    height: 10vh;
+}
+.JoinForm-Question1 a{
+    color:white;
+    background-color: green;
+    padding: 2vh;
+    margin-left: 1vw;
+    translate: 0 5vh;
+}
+.JoinForm-Question1 p{
+    padding-bottom: 2.5vw;
+    padding-top: 2.5vw;
+}
+.JoinForm-Question1 h2{
+    font-size: 3vh;
+}
+.JoinForm-Question1 a:hover{
+    color:green;
+    background-color: white;
+    padding: 2vh;
+} */
+
+
+
+/* JoinForm-Question */
+.JoinForm-Question{
+    margin-top: 15vh;
+    width: 100vw;
+    height: 10vh;
+    animation-duration: 1s;
+}
+
+.JoinForm-Question p{
+    color:rgb(7, 120, 148);
+    padding: 2vh;
+    margin-left: 1vw;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+.JoinForm-Question a:hover{
+    text-decoration: underline;
+}
+.JoinForm-Question h1{
+    font-size: 5vh;
+}
+.JoinForm-Question h2{
+    font-size: 2.5vh;
+    padding-top: 3vh;
+    padding-bottom: 7vh;
+}
+
+/* JoinForm-Question1 */
+
+.JoinForm-Question1{
+    display: none;
+    animation-duration: 1s;
+    margin-top: 15vh;
+    width: 100vw;
+    height: 10vh;
+    animation-duration: 1s;
+}
+
+.JoinForm-Question1 p{
+    font-size: 3vh;
+    padding-bottom: 5vh;
+}
+.JoinForm-Question1 a{
+    padding: 2.5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    color:white;
+    background-color: rgb(7, 120, 148) ;
+    margin-left: 1vw;
+    transition: all 0.3s ease;
+}
+
+.JoinForm-Question1 a:hover{
+    color:rgb(7, 120, 148);
+    background-color: white ;
+    transition: all 0.3s ease;
+}
+
+/* JoinForm-Question-true  */
+.JoinForm-Question-true {
+    display: none;
+    margin-top: 25vh;
+    width: 100vw;
+    height: 10vh;
+    animation-duration: 1s;
+}
+.JoinForm-Question-true p{
+    margin-top: 15vh;
+    color:rgb(7, 120, 148);
+    cursor: pointer;
+}
+.JoinForm-Question-true p:hover{
+    margin-top: 15vh;
+    color:rgb(7, 120, 148);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.JoinForm-Question-true a{
+    padding: 2.5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-top: 15vh;
+    color:white;
+    background-color: rgb(7, 120, 148) ;
+    transition: all 0.3s ease;
+}
+
+.JoinForm-Question-true a:hover{
+    color:rgb(7, 120, 148);
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+
+
+/* JoinForm-Question-false  */
+.JoinForm-Question-false {
+    display: none;
+    margin-top: 25vh;
+    width: 100vw;
+    height: 10vh;
+    animation-duration: 1s;
+}
+.JoinForm-Question-false p{
+    margin-top: 15vh;
+    color:rgb(7, 120, 148);
+    cursor: pointer;
+}
+.JoinForm-Question-false p:hover{
+    margin-top: 15vh;
+    color:rgb(7, 120, 148);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.JoinForm-Question-false a{
+    padding: 2.5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-top: 15vh;
+    color:white;
+    background-color: rgb(7, 120, 148) ;
+    transition: all 0.3s ease;
+}
+
+.JoinForm-Question-false a:hover{
+    color:rgb(7, 120, 148);
+    background-color: white;
+    transition: all 0.3s ease;
+}
