@@ -69,7 +69,7 @@ function Diaporama(props) {
             </div>
               <div className="content-a">
                 <a href='http://localhost:3000/Connect'  className='content-a1'>Connect Vatsim</a>
-                <a href='http://localhost:3000/Join' className='content-a2'>Join Us</a>
+                <a href='http://localhost:3000/Team#JoinForm' className='content-a2'>Join Us</a>
               </div>
           </div>
           {/* same as .content other than the <i></i> is an icon that I got from FontAwesome (website) */}

@@ -60,7 +60,7 @@ function App() {
       <Route path="/Controllers" element={<ControllersMain />} />  
       <Route path="/Charts" element={<ChartsMain />} />  
       <Route path="/Connect" element={<ConnectVatsim />} />  
-      <Route path="/Join" element={<JoinMain />} />
+      <Route path="/Team" element={<JoinMain />} />
     </Routes>
 
     <div className="App">

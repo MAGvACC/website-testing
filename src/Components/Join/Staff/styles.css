@@ -1,0 +1,61 @@
+.Staff{
+    width: 100vw;
+    height: 100vh;
+}
+
+.Staff div{
+    float: left;
+}
+
+
+.Staff-Selector{
+    width: 20vw;
+    height: 50vh;
+    outline:1px solid black
+}
+
+.Staff-Container{
+    width: 80vw;
+    height: 100vh;
+}
+
+.Staff-Selector-Container{
+    width: 20vw;
+    height: 10vh;
+    cursor: pointer;
+}
+
+.Staff-Selector-Container:hover{
+    
+}
+
+
+.Staff-Selector-Container p{
+    padding-top: 3vh;
+}
+
+
+
+/* Staff Component */
+
+.Staff-Component{
+    width: 30vw;
+    height: 50vh;
+    margin-left:7vw;
+    margin-top:5vh;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.Staff-Component:hover{
+    /* background-color: rgb(207, 207, 207); */
+    box-shadow: grey 50px 50px 100px;
+    transition: all 0.3s ease;
+}
+
+
+.Staff-Component img{
+    width: 10vw;
+    margin-top: 5vh;
+
+}

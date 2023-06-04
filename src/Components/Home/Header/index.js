@@ -91,7 +91,7 @@ function Header(){
             <div className='Links'>
                 <a className='LinkA' href='http://localhost:3000/'>Home</a>{/* links are just for testing purpose after we need to create them as componenet */}
                 <a className='LinkA' href='http://localhost:3000/Events'>Events</a>{/*so that it can be easy to add new links when ever when need and add the menu element  */}
-                <a className='LinkA' href='http://localhost:3000/Staff'>Staff</a>
+                <a className='LinkA' href='http://localhost:3000/Team'>Team</a>
                 <a className='LinkA' href='http://localhost:3000/Controllers'>Controllers</a>
                 <a className='LinkA' onClick={()=>{PilotsHover()}} href='#'>Pilots <i class="fa-solid fa-chevron-down"></i></a>
                 <a className='Link' onClick={()=>{PoliciesHover()}} href='#'>Policies <i class="fa-solid fa-chevron-down"></i></a>

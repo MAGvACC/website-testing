@@ -1,0 +1,23 @@
+.Warning{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(219, 38, 38);
+
+    /* background-color: rgb(209, 67, 67); */
+    color: white;
+    padding-top: 10vh;
+}
+.Warning > div h1{
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    font-size: 4vh;
+}
+
+.Warning p{
+    width: 80vw;
+    height: 10vh;
+    margin: auto;
+    font-size: 2vh;
+    margin-top: 5vh;
+}
