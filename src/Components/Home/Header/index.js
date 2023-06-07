@@ -18,16 +18,19 @@ function Header(){
             // Socials background color
             try{
 
-            document.querySelector('.Socials').style.backgroundColor = "rgb(16,16,16)"
-            document.querySelector('.Socials-Text-p').style.color = "rgb(159,159,159)"
-            // About / Footer background color
-            document.querySelector('.footer-32892').style.backgroundColor = "rgb(16,16,16)"
-            document.querySelector('.footer-32892').style.color = "rgb(159,159,159)"
-            // diable dark mode click
-            document.querySelector('.darkmod').style.display = "none"
-            document.querySelector('.whitemod').style.display = "block"
+                document.querySelector('.Socials').style.backgroundColor = "rgb(16,16,16)"
+                document.querySelector('.Socials-Text-p').style.color = "rgb(159,159,159)"
+                // About / Footer background color
+                document.querySelector('.footer-32892').style.backgroundColor = "rgb(16,16,16)"
+                document.querySelector('.footer-32892').style.color = "rgb(159,159,159)"
+                // diable dark mode click
+                document.querySelector('.darkmod').style.display = "none"
+                document.querySelector('.whitemod').style.display = "block"
+
             }
-            catch(err){console.log(err)}
+            catch(err){
+                console.log(err)
+            }
                 
     }    
     
@@ -89,17 +92,17 @@ function Header(){
                 <img className='LogoImg' src={LogoSrc} alt="Logo"></img>
             </div>
             <div className='Links'>
-                <a className='LinkA' href='http://localhost:3000/'>Home</a>{/* links are just for testing purpose after we need to create them as componenet */}
-                <a className='LinkA' href='http://localhost:3000/Events'>Events</a>{/*so that it can be easy to add new links when ever when need and add the menu element  */}
-                <a className='LinkA' href='http://localhost:3000/Team'>Team</a>
-                <a className='LinkA' href='http://localhost:3000/Controllers'>Controllers</a>
+                <a className='LinkA' href='/'>Home</a>{/* links are just for testing purpose after we need to create them as componenet */}
+                <a className='LinkA' href='/Events'>Events</a>{/*so that it can be easy to add new links when ever when need and add the menu element  */}
+                <a className='LinkA' href='/Team'>Team</a>
+                <a className='LinkA' href='/Controllers'>Controllers</a>
                 <a className='LinkA' onClick={()=>{PilotsHover()}} href='#'>Pilots <i class="fa-solid fa-chevron-down"></i></a>
                 <a className='Link' onClick={()=>{PoliciesHover()}} href='#'>Policies <i class="fa-solid fa-chevron-down"></i></a>
             </div>
             {/* Pilots hover */}
             <div className='Links-Pilots animate__fadeIn'>
-                <a className='LinkA' href='http://localhost:3000/Charts'>Charts</a>{/* links are just for testing purpose after we need to create them as componenet */}
-                <a className='LinkA' href='https://docs.vatsim.ma/pilots/' target='blank'>Documentation</a>{/*so that it can be easy to add new links when ever when need and add the menu element  */}
+                <a className='LinkA' href='/Charts'>Charts</a>{/* links are just for testing purpose after we need to create them as componenet */}
+                <a className='LinkA' href='/pilots/' target='blank'>Documentation</a>{/*so that it can be easy to add new links when ever when need and add the menu element  */}
                 <a className='LinkA' href='https://vamsys.io/login' target='blank'>Virtual Royal Air Maroc</a>
                 <a className='LinkA' target='blank'>Test</a>
             </div>

@@ -65,9 +65,9 @@ function Footer(props) {
               <div class="col-12">
                 <div class="py-5 footer-menu-wrap d-md-flex align-items-center">
                   <ul class="list-unstyled footer-menu mr-auto">
-                    <li><a href="#">Vatsim</a></li>
-                    <li><a href="#">Vatmena</a></li>
-                    <li><a href="#">Charts</a></li>
+                    <li><a href="https://vatsim.net/">Vatsim</a></li>
+                    <li><a href="https://vatsim.me/">Vatmena</a></li>
+                    <li><a href="/Charts">Charts</a></li>
                     <li><a href="#">Contact us</a></li>
                   </ul>
 

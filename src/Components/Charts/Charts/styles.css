@@ -3,27 +3,64 @@
     height: 50vh;
 }
 
-.rooster div{
+.rooster > div{
     width: 25vw;
     height: 30vh;
     float: left;
     margin-left: 4vw;
     margin-right: 4vw;
     margin-top: 7vw;
-    background-color: aqua;
     background-size: 100%;
-    cursor: pointer;
     transition: all 0.3s ease;
     background-position: 50%, -50%;
 }
+
 .rooster div:hover{
     transition: all 0.3s ease;
     background-size: 120%;
     }
+
+    
+.rooster > div  > div{
+    width: 25vw;
+    height: 30vh;
+   
+    transition: all 0.3s ease;
+ 
+}
+
+.rooster > div > div:hover{
+    width: 25vw;
+    height: 30vh; 
+    backdrop-filter: contrast(100%) saturate(100%) blur(5px) brightness(100%); 
+    transition: all 0.3s ease;
+ 
+}
+
+
+.rooster > div  > div a{
+    padding: 3vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    background-color: white;
+    margin-left: 1vw;
+    color:black;
+ 
+}
+.rooster > div  > div > div{
+    translate: -0.2vw 14vh;
+    display: none;
+    transition: all 0.3s ease;
+    animation-duration: 0.3s;
+ 
+}
+
+
 .rooster div a{
     width: 25vw;
     height: 30vh;
 }
+
 .Morocco{
     background-image: url('../../../Ressources/Images/Chart\ Images/morocco.jpg');
 }
@@ -33,6 +70,10 @@
 .Tunisia{
     background-image: url('../../../Ressources/Images/Chart\ Images/tunisia.jpg');
 }
+
+
+
+
 
 
 .Morocco p{color: white;margin-top: 13vh;}

@@ -11,6 +11,7 @@ function Staff(props) {
     
     return(
         <div className="Staff">
+            {/* <h1>Staff</h1> */}
             <div className="Staff-Selector">
                 <div className="Staff-Selector-Container">
                     <p>All</p>

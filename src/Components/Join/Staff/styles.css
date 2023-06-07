@@ -1,6 +1,14 @@
 .Staff{
     width: 100vw;
-    height: 100vh;
+    height: 200vh;
+    background-color: rgb(216, 216, 216);
+    
+}
+
+.Staff h1{
+    text-align: left;
+    translate: 10vw 10vh;
+    font-family: Cera Pro,sans-serif;
 }
 
 .Staff div{
@@ -11,12 +19,15 @@
 .Staff-Selector{
     width: 20vw;
     height: 50vh;
-    outline:1px solid black
+    outline:1px solid black;
+    margin-top:20vh;
 }
 
 .Staff-Container{
     width: 80vw;
     height: 100vh;
+    margin-top:10vh;
+    overflow-y: scroll;
 }
 
 .Staff-Selector-Container{
