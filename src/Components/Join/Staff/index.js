@@ -1,40 +1,24 @@
-import React from "react";
+import React  from "react";
 
-// Import styles
-import "./styles.css";
-
-// import Components
+// import styles
 import StaffComponent from "./StaffComponent"
 
 
-function Staff(props) {
+function Staff(){
+
     
     return(
-        <div className="Staff">
-            {/* <h1>Staff</h1> */}
-            <div className="Staff-Selector">
-                <div className="Staff-Selector-Container">
-                    <p>All</p>
-                </div>
-                <div className="Staff-Selector-Container">
-                    <p>CASABLANCA FIR</p>
-                </div>
-                <div className="Staff-Selector-Container">
-                    <p>Alger FIR</p>
-                </div>
-                <div className="Staff-Selector-Container">
-                    <p>Tunis FIR</p>
-                </div>
-            </div>
-            <div className="Staff-Container">
-                <StaffComponent></StaffComponent>
-                <StaffComponent></StaffComponent>
-                <StaffComponent></StaffComponent>
-                <StaffComponent></StaffComponent>
-                <StaffComponent></StaffComponent>
-                <StaffComponent></StaffComponent>
-            </div>
-        </div>
+        <>
+            <StaffComponent
+                id = "Staff1"
+                name = "Reda F."
+                text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis eleifend tellus, condimentum sollicitudin ipsum. Curabitur pretium dignissim quam. Praesent imperdiet rutrum cursus. Pellentesque scelerisque id quam vel eleifend. Duis ex mauris, gravida gravida malesuada eget, tristique at elit. Donec porttitor enim eget nunc lacinia gravida. Fusce volutpat porttitor neque, sit amet consectetur leo. Mauris vitae magna sed est vehicula consectetur. Nam condimentum nulla massa, pharetra egestas nisi aliquam at."
+                function = "Tech Director"
+                cid = "1167822"
+            />
+            
+
+        </>
     )
 }
 

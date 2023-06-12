@@ -5,7 +5,7 @@ import React from "react";
 import Header from '../Home/Header/index';
 import EventDiaporama from '../Join/Diaporama/index';
 import JoinForm from './JoinForm/JoinForm'
-import Staff from "./Staff/index";
+// import Staff from "./Staff/index";
 
 function JoinMain(){
     return(
@@ -13,7 +13,7 @@ function JoinMain(){
             <Header></Header>
             <EventDiaporama></EventDiaporama>
             <JoinForm></JoinForm>
-            <Staff></Staff>
+            {/* <Staff></Staff> */}
         </>
     )
 }

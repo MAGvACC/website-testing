@@ -1,0 +1,96 @@
+.Staff{
+  width: 100vw;
+  height: 80vh!important;
+  background-color: white!important;
+  animation-duration: 0.5s;
+}
+
+.Staff > div{
+  float: left;
+}
+
+/* .Staff-arrow-left{
+  width: 10vw;
+  height: 80vh;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Staff-arrow-right{
+  width: 10vw;
+  height: 80vh;
+  cursor: pointer;
+  transition: all 0.3s ease;
+} */
+
+/* 
+.Staff-arrow-left svg{
+  font-size: 3vh;
+  translate: 0vw 35vh;
+}
+.Staff-arrow-right svg{
+  font-size: 3vh;
+  translate: 0vw 35vh;
+} 
+
+.Staff-arrow-left:hover{
+  background-color: rgb(238, 237, 237);
+  transition: all 0.3s ease;
+}
+.Staff-arrow-right:hover{
+  background-color: rgb(238, 237, 237);
+  transition: all 0.3s ease;
+} */
+
+/* ICON PART */
+.Staff-Icon{
+  width: 50vw;
+  height: 80vh;
+  padding-top: 8vh;
+}
+
+
+.Staff-Icon > img{
+  width: 20vw;
+}
+
+
+
+.Staff-Icon > div{
+  width: 50vw;
+  height: 30vh;
+}
+
+.Staff-Icon > div > h1{
+  width: 50vw;
+  translate: 0 0 !important;
+  text-align: center!important;
+}
+
+.Staff-Icon > div > p{
+  width: 50vw;
+  translate: 0 1vh !important;
+}
+
+.Staff-Icon > div > a{
+  width: 50vw;
+}
+
+/* TEXT PART */
+
+.Staff-Text{
+  width: 50vw;
+  height: 80vh;
+}
+.Staff-Text p{
+  translate: 2vw 30vh;
+  width: 45vw;
+  text-align: left;
+  margin: auto;
+}
+.Staff-Text h1{
+  translate: 2vw 20vh!important;
+  text-align: center;
+  width: 40vw;
+  text-align: left;
+  margin: auto;
+}
