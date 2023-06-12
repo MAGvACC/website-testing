@@ -7,7 +7,9 @@ import Logo from "../../Ressources/Images/Logo/logo.png"
 function ConnectVatsim(){
     return(
         <div className="ConnectVatsim animate__fadeIn">
-            <div className="ConnectVatsimForm animate__fadeInLeft">
+            
+            <div className="ConnectVatsimImg">
+            <div className="ConnectVatsimForm animate__fadeIn">
                 <form>
                     <img src={Logo}></img>
                     <h1></h1>
@@ -18,8 +20,6 @@ function ConnectVatsim(){
                     <input className="ConnectVatsimSubmit" type="submit" />
                 </form>
             </div>
-            <div className="ConnectVatsimImg">
-                
             </div>
         </div>
     )
